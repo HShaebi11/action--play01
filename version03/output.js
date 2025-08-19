@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const OUTPUT_PEER_ID = 'three-output-003';
   const mount = document.getElementById('three-render03');
-  if (!mount) { log('❌ #three-render not found'); statusEl.textContent = 'OUTPUT: #three-render missing'; return; }
+  if (!mount) { log('❌ #three-render03 not found'); statusEl.textContent = 'OUTPUT: #three-render03 missing'; return; }
 
   // --- Three.js ---
   const scene = new THREE.Scene();
